@@ -1,0 +1,29 @@
+<div style="display: flex;justify-content: center;align-items: center;margin-bottom: 20px">
+
+  <H1 style="color:rgba(141,50,167,0.54)">La Liste des Vehicules</H1>
+
+</div>
+<div class="row">
+  <div class="col-sm-12" *ngFor="let car of vehicules" >
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+        <div class="row" style="margin:0%">
+        <span class="card-text" ><b style="margin:10px">Marque :</b> {{car.marque}}</span><br>
+        <span class="card-text"><b style="margin:10px">Modele : </b>{{car.modele}}</span><br>
+        <span class="card-text"><b style="margin:10px">Matricule : </b>{{car.matricule}}</span><br>
+        <span class="card-text"><b style="margin:10px">Puissance Fiscale : </b>{{car.puissanceFiscale}}</span><br>
+        <span class="card-text"><b style="margin:10px">Proprietaire : </b>{{car.proprietaire.nom + " " + car.proprietaire.prenom}}</span><br>
+        <span class="card-text"><b style="margin:10px">Email : </b>{{car.proprietaire.email}}</span><br><br>
+        <span style="display: flex;align-items: center;justify-content: center">
+              <button href="#" class="btn" style="background-color: rgba(141,50,167,0.54);margin-left:30px;margin-top:-20px">Modifier</button>&nbsp;&nbsp;
+          <button href="#" class="btn" style="margin-left:10px;margin-top:-20px;background-color: rgba(141,50,167,0.54)">Supprimer</button>
+        </span>
+          <div>
+          </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>

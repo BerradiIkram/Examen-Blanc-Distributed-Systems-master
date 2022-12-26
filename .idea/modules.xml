@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DiscoveryService/DiscoveryService.iml" filepath="$PROJECT_DIR$/DiscoveryService/DiscoveryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Examen-Blanc-Distributed-Systems-master.iml" filepath="$PROJECT_DIR$/.idea/Examen-Blanc-Distributed-Systems-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen_blanc/Examen_blanc.iml" filepath="$PROJECT_DIR$/Examen_blanc/Examen_blanc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GatewayService/GatewayService.iml" filepath="$PROJECT_DIR$/GatewayService/GatewayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen_blanc/common-api/common-api.iml" filepath="$PROJECT_DIR$/Examen_blanc/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen_blanc/examen-immatriculation-service/examen-immatriculation-service.iml" filepath="$PROJECT_DIR$/Examen_blanc/examen-immatriculation-service/examen-immatriculation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen_blanc/examen-infraction-service/examen-infraction-service.iml" filepath="$PROJECT_DIR$/Examen_blanc/examen-infraction-service/examen-infraction-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen_blanc/examen-radar-service/examen-radar-service.iml" filepath="$PROJECT_DIR$/Examen_blanc/examen-radar-service/examen-radar-service.iml" />
+    </modules>
+  </component>
+</project>

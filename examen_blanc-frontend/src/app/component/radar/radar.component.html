@@ -1,0 +1,21 @@
+<div style="display: flex;justify-content: center;align-items: center;margin-bottom: 20px">
+  <H1 style="color:rgba(141,50,167,0.54)">La Liste des Radars</H1>
+</div>
+<div class="row">
+  <div class="col-sm-12" *ngFor="let radar of radars" >
+    <div class="card" >
+      <div class="card-body">
+        <div class="row">
+        <h6 class="card-title" >{{radar.id}}</h6>
+        <span class="card-text"><b style="margin:50px">Vitesse Max :</b> {{radar.vitesseMax}} <b style="color: brown">km/h</b></span><br>
+        <span class="card-text"><b style="margin:50px">Latitude : </b>{{radar.latitude}}</span><br>
+        <span class="card-text"><b style="margin:50px">Longitude : </b>{{radar.longtitude}}</span><br><br>
+        <span style="display: flex;align-items: center;justify-content: center">
+          <button href="#" class="btn" style="background-color: rgba(141,50,167,0.54);margin-left:30px;margin-top:-20px">Modifier</button>&nbsp;&nbsp;
+          <button href="#" class="btn" style="margin-left:10px;margin-top:-20px;background-color: rgba(141,50,167,0.54)">Supprimer</button>
+        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
